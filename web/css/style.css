@@ -1,0 +1,30 @@
+html{
+    font-family: fantasy;
+    background-color: 	#DB4455;
+}
+h1{
+    text-align:right;
+    border-bottom:3px solid gray;
+    padding:20px;
+    font-size:45px;
+}
+ol{
+    border-right: 3px solid gray;
+}
+
+img {
+    width:100%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+@media(max-width:800px){
+    #grid{
+        display: block;
+        
+    }
+
+}
