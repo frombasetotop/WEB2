@@ -1,0 +1,62 @@
+.container{
+    width: 1200px;
+    height: 350px;
+    border: 10px solid gray;
+    margin-left: 36px;
+    margin-top: 32px;
+
+}
+
+.left {
+    width: 70%;
+    height: 80%;
+    float: left;
+    background: whitesmoke;
+    margin-top: 33px;
+    margin-left: 31px;
+
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+.right {
+    width: 24%;
+    height: 80%;
+    float: left;
+    margin-top: 33px;
+    margin-left: 31px;
+    
+}
+
+
+img {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 45px;
+
+
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color:inherit;
+}
